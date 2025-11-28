@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Lab3.css">
+</head>
+<body>
+  <!-- Header-->
+  <header class="header">
+    <div class="logo">Siddharth</div>
+    <nav class="nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero-->
+  <section id="hero" class="hero-section">
+    <div class="hero-text">
+      <h1><span class="highlight">  Web Dev Student</h1>
+      <p class="fade-in">Turning ideas into beautiful and user-friendly websites .</p>
+    </div>
+    <div class="hero-image">
+      <img src="pfp.jpg" alt="My Photo">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>Hey! I'm Siddharth, a Web Dev Student passionate about making the web easy and fun for everyone. I enjoy turning imagination into real web pages that people love to use.</p>
+  </section>
+
+  <!-- Skills-->
+  <section id="skills" class="skills-section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>HTML</h3>
+        <p>Intermediate</p>
+      </div>
+      <div class="card">
+        <h3>CSS</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="card">
+        <h3>Python</h3>
+        <p>Beginner</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects-->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="card project-card">
+        <h3>Portfolio Website Design</h3>
+        <p>Created a modern portfolio using HTML, CSS, and beginner layout techniques.</p>
+      </div>
+      <div class="card project-card">
+        <h3>Calculator</h3>
+        <p>Developed a simple calculator with Python to perform basic calculations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form-->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your message..." rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <p>&copy; 2025 Siddharth. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
